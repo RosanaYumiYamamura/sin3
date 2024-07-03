@@ -1,13 +1,55 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0px;
+  background-color: #f0f0f0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.contenedor {
+max-width: 100%; /* Ancho máximo del contenedor */
+height: auto; /* Altura automática para mantener la proporción */
+border: 1px solid #ccc; /* Borde del contenedor */
+overflow: hidden; /* Oculta partes de la imagen que sobresalgan */
+position: relative; /* Asegura que la imagen ajustada permanezca dentro del contenedor */
+
+}
+
+.contenedor img {
+width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
+height: auto; /* Altura automática para mantener la proporción */
+display: block; /* Elimina espacios innecesarios debajo de la imagen */
+object-fit: cover; /* Ajusta la imagen manteniendo la relación de aspecto */
+}
+    
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+h1, h2, h3 {
+  color: #d62f2f;
+}
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+a {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0px;
 }
